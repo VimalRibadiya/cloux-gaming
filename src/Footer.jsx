@@ -39,8 +39,12 @@ const Footer = () => {
       url: "https://www.twitch.tv",
     },
   ];
+
+
+
   return (
     <>
+      {/* start footer */}
       <div className="footer-main">
         <div className="footer-top">
           <div className="container">
@@ -66,6 +70,7 @@ const Footer = () => {
                   <input
                     type="submit"
                     placeholder="Submit"
+                    value="SUBMIT"
                     className="newsletter-submit"
                   />
                 </div>
@@ -74,7 +79,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-middle">
-          <div className="Footer-container">
+          <div className="container">
             <div className="Footer-inner">
               {icons.map((a) => (
                 <div className="footer-inner-item" key={a.name}>
@@ -175,7 +180,7 @@ const Footer = () => {
               </div>
               <div className="footer-col">
                 <h2>
-                  APPS<span>&PLATFORMS</span>
+                  APPS<span> & PLATFORMS</span>
                 </h2>
                 <ul className="apps-ul">
                   <li>
@@ -267,7 +272,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> 
+      {/* end footer */}
     </>
   );
 };
