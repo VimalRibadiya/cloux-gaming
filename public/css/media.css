@@ -2,6 +2,31 @@
   .container {
     max-width: 960px;
   }
+
+  /* start hero section */
+
+  .hero-main .hero-inner .hero-content .title {
+    font-size: 65px;
+  }
+
+  /* end hero section */
+
+  /* start cloux-info */
+
+  .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box1 {
+    padding: 28px;
+  }
+  .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box2 {
+    padding: 28px;
+  }
+  .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box3 {
+    padding: 28px;
+  }
+  .cloux-info-main .cloux-info-inner .cloux-info-col .main-title {
+    font-size: 25px;
+  }
+  /* end cloux-info */
+
   /* start footer */
 
   .footer-main .footer-bottom .footer-inner {
@@ -42,6 +67,26 @@
   .container {
     max-width: 720px;
   }
+
+  /* start hero section */
+
+  .hero-main .hero-inner .hero-content .title {
+    font-size: 48px;
+  }
+
+  /* end hero section */
+
+  /* start cloux-info */
+  .cloux-info-main .cloux-info-inner {
+    flex-wrap: wrap;
+  }
+  .cloux-info-main .cloux-info-inner .cloux-info-col {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  /* end cloux-info */
+
   /* start footer */
 
   .footer-main .footer-bottom .footer-inner .footer-col .apps-ul li {
@@ -63,8 +108,17 @@
 @media (max-width: 576px) {
   .container {
     max-width: 540px;
-    /* start footer */
   }
+  /* start hero section */
+
+  .hero-main .hero-inner .hero-content .title {
+    font-size: 40px;
+  }
+
+  /* end hero section */
+
+  /* start footer */
+
   .footer-main .footer-bottom .footer-inner .footer-col {
     width: 100%;
   }

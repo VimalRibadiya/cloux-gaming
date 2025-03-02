@@ -32,17 +32,11 @@ a {
 /* start header area */
 
 .header-outer {
-  background-color: red;
+  background-color: transparent;
   padding: 2.308rem 0 1.154rem;
   width: 100%;
-}
-
-.header-container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  max-width: 1150px;
-  margin: 0 auto;
+  position: absolute;
+  z-index: 10;
 }
 
 .header-inner-item {
@@ -256,6 +250,257 @@ a {
   color: #ffc311;
 }
 /* end header area */
+
+/* start hero section */
+
+.hero-main {
+  background-image: url("../images/egypt-slider-1920x941.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  padding: 12.54rem 0;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-main::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background: #000000;
+  opacity: 0.2;
+}
+.hero-main-2 {
+  background-image: url("../images/fs-7-1920x950.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  padding: 12.54rem 0;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-main-3 {
+  background-image: url("../images/nfs-slider.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  padding: 12.54rem 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-main .hero-inner .hero-content {
+  position: relative;
+  z-index: 5;
+}
+.hero-main .hero-inner .hero-content .game-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-main .hero-inner .hero-content .game-details li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+.hero-main .hero-inner .hero-content .game-details li i {
+  color: #ffc311;
+  margin: 0 10px;
+  font-size: 15px;
+}
+.hero-main .hero-inner .hero-content .game-details li a {
+  color: white;
+  font-size: 12px;
+  transition: 0.3s;
+}
+.hero-main .hero-inner .hero-content .game-details li a:hover {
+  color: #ffc311;
+}
+.hero-main .hero-inner .hero-content .title {
+  font-size: 80px;
+  font-family: 'Titillium Web';
+  line-height: 6.154rem;
+  font-weight: 800;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.hero-main .hero-inner .hero-content .detail {
+  font-size: 15px;
+  line-height: 30px;
+}
+.hero-main .hero-inner .hero-content .btns a{
+  font-size: 14px;
+  border-bottom: 0.1538rem solid #282828;
+  border-bottom-color: white;
+  color: white;
+  font-weight: 600;
+  display: inline-block;
+  margin: 30px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  padding: 0.7692rem 1.538rem;
+  cursor: pointer;
+  z-index: 10;
+}
+.hero-main .hero-inner .hero-content .btns a:hover{
+  color: #ffc311;
+  border-bottom-color: #ffc311;
+}
+/* end hero section */
+
+/* start catagories */
+
+
+
+/* end catagories */
+
+/* start cloux-info-main */
+
+.cloux-info-main {
+  display: block;
+}
+.cloux-info-main .cloux-info-inner {
+  padding: 90px 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex;
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col {
+  width: 33.33%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-content {
+  position: relative;
+  z-index: 2;
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .top-title {
+  color: #ffc311;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1rem;
+  margin-bottom: 0.6923rem;
+  font-size: 13px;
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .main-title {
+  font-size: 28px;
+  line-height: 2.154rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1.692rem;
+  font-family: "Titillium Web";
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .text {
+  font-size: 12px;
+  line-height: 22px;
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .cloux-btn {
+  margin: 10px 0;
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .cloux-btn a {
+  font-size: 14px;
+  color: #ffc311;
+  border-bottom: 0.1538rem solid #282828;
+  border-bottom-color: #ffc311;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.7692rem 1.538rem;
+  position: relative;
+  cursor: pointer;
+  z-index: 10;
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .cloux-btn a::before {
+  position: absolute;
+  background-color: #ffc311;
+  width: 100%;
+  height: 0%;
+  bottom: 0;
+  left: 0;
+  content: "";
+  display: block;
+  z-index: 1;
+  transition: 0.3s;
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .cloux-btn a:hover:before {
+  height: 100%;
+  transition: 0.3s;
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .cloux-btn a:hover span {
+  color: white;
+  z-index: 2;
+  position: relative;
+  transition: 0.3s;
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box1 {
+  position: relative;
+  background-image: url("../images/box-1-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  padding: 45px;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.23);
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box1::before {
+  content: "";
+  display: block;
+  background: #000000;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box2 {
+  position: relative;
+  background-image: url("../images/box-2-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  padding: 45px;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.23);
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box2::before {
+  content: "";
+  display: block;
+  background: #000000;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box3 {
+  position: relative;
+  background-image: url("../images/box-3-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  padding: 45px;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.23);
+}
+.cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box3::before {
+  content: "";
+  display: block;
+  background: #000000;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+/* end cloux-info-main */
 
 /* start footer area */
 
