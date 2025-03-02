@@ -326,7 +326,7 @@ a {
 }
 .hero-main .hero-inner .hero-content .title {
   font-size: 80px;
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   line-height: 6.154rem;
   font-weight: 800;
   margin: 20px 0;
@@ -336,7 +336,7 @@ a {
   font-size: 15px;
   line-height: 30px;
 }
-.hero-main .hero-inner .hero-content .btns a{
+.hero-main .hero-inner .hero-content .btns a {
   font-size: 14px;
   border-bottom: 0.1538rem solid #282828;
   border-bottom-color: white;
@@ -350,7 +350,7 @@ a {
   cursor: pointer;
   z-index: 10;
 }
-.hero-main .hero-inner .hero-content .btns a:hover{
+.hero-main .hero-inner .hero-content .btns a:hover {
   color: #ffc311;
   border-bottom-color: #ffc311;
 }
@@ -358,7 +358,133 @@ a {
 
 /* start catagories */
 
+.categories-outer {
+  display: block;
+}
 
+.categories-inner {
+  display: block;
+}
+
+.categories-inner-in1 {
+  text-align: center;
+  margin-bottom: 3.462rem;
+}
+
+.categories-inner-in1 ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.categories-inner-in1 ul li a {
+  color: #ffc311;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid #ffc311;
+  padding: 12px 18px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.categories-inner-in1 ul li a:hover {
+  background-color: #ffc311;
+  color: #ffffff;
+}
+
+.categories-inner-in2 {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.categories-inner-in-items {
+  padding: 0 15px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+.image{
+  position: relative;
+}
+.image img{
+  width: 100%;
+}
+
+.genre {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.genre a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+  margin-right: 0.2308rem;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.genre::after {
+  content: "\f02c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ffc311;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.content .content-a {
+  color: #282828;
+  font-size: 23px;
+  line-height: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-family: "Titillium Web";
+  transition: all 0.3s ease-in-out;
+}
+
+.content .content-a:hover {
+  color: #ffc311;
+}
+
+.content .content-a2 a {
+  color: #a0a0a0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 10px;
+  padding-right: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.content .content-a2 a:hover {
+  color: #ffc311;
+}
+
+.content-a2::before {
+  content: "\f26c";
+  color: #ffc311;
+  font-size: 12px;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.content p {
+  color: #a0a0a0;
+  font-size: 12px;
+  margin-bottom: 30px;
+  line-height: 20px;
+  margin-top: 7px;
+}
 
 /* end catagories */
 
