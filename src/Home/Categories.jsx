@@ -92,6 +92,9 @@ const Categories = () => {
                 description="Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet"
               />
             </div>
+            <div className="categories-inner-in3">
+              <a href="#">ALL GAMES</a>
+            </div>
           </div>
         </div>
       </div>

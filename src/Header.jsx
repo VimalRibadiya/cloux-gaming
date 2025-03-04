@@ -8,7 +8,7 @@ const Header = () => {
           <div className="header-inner">
             <div className="header-inner-item">
               <div className="header-logo">
-                <img src="/cloux-gaming/images/logo-2.png" alt="logo" />
+                <img src="/cloux-gaming/images/cloux-logo.png" alt="logo" />
               </div>
               <div className="header-content">
                 <div className="header-elements">
@@ -318,72 +318,6 @@ const Header = () => {
                           </li>
                         </ul>
                       </li>
-                      {/* <Header_props
-                                                label="home"
-                                                subItems={[
-                                                    "home 1 - multiple",
-                                                    "home 2 - multiple",
-                                                    "home 3 - multiple",
-                                                    "home 4 - multiple",
-                                                    "home 5 - game",    
-                                                    "home 6 - game",
-                                                    "home 7 - esport",
-                                                    "home 8 - esport",
-                                                ]}
-                                            />
-
-                                            <Header_props
-                                                label="pages"
-                                                subItems={[
-                                                    "about",
-                                                    "about alternative",
-                                                    "team",
-                                                    "career",
-                                                    "FAQ",
-                                                    "galley",
-                                                    "page example 1",
-                                                    "page example 2",
-                                                    "page example 3",
-                                                    "shop",
-                                                    "conctact",
-                                                    "contact 2",
-                                                    "achievements",
-                                                    "advertise",
-                                                ]}
-                                            />
-
-                                            <Header_props
-                                                label="games"
-                                                subItems={[
-                                                    "Game Listing Style 1",
-                                                    "Game Listing Style 2",
-                                                    "Game Listing Style 3",
-                                                    "game detail 1 - sales",
-                                                    "game detail 2 - publicity",
-                                                    "game detail 3 - publicity",
-                                                    "detail 4 - review",
-                                                    "categorized games",
-                                                ]}
-                                            />
-
-                                            <Header_props label="forums" subItems={[]}/>
-                                            <Header_props label="esport" subItems={[]}/>
-
-                                            <Header_props
-                                                label="blog"
-                                                subItems={[
-                                                    "blog 1",
-                                                    "blog 2",
-                                                    "blog 3",
-                                                    "blog 4",
-                                                    "blog 5",
-                                                    "review style 1 - point",
-                                                    "review style 2 - stars",
-                                                    "review post style 1",
-                                                    "review post style 2",
-                                                    "review post style 3",
-                                                ]}
-                                            /> */}
                     </ul>
                   </div>
                 </div>
