@@ -27,6 +27,24 @@
   }
   /* end cloux-info */
 
+  /* start fifa soccer */
+
+  .Fifa-inner {
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+  }
+
+  /* end fifa soccer */
+
+  /* start blog and news */
+
+  .in-item-content {
+    flex-wrap: wrap;
+  }
+
+  /* end blog and news */
+
   /* start footer */
 
   .footer-main .footer-bottom .footer-inner {
@@ -95,6 +113,61 @@
 
   /* end cloux-info */
 
+  /* start fifa soccer */
+
+  .Fifa-inner {
+    flex-wrap: wrap;
+  }
+  .fifa-inner-item {
+    width: 100%;
+  }
+  .fifa-inner-item-image {
+    display: none;
+  }
+  /* end fifa soccer */
+
+  /* start featured games */
+
+  .featuregame-inner-in-item2 li {
+    width: 50%;
+  }
+
+  /* end featured games */
+
+  /* start blog and news */
+  .news-inner-in2 {
+    flex-wrap: wrap;
+  }
+  .news-inner-in2 .news-inner-in-item {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  /* end blog and news */
+
+  /* start about cloux box */
+  .about-inner {
+    flex-wrap: wrap;
+  }
+  .about-inner-item {
+    width: 100%;
+  }
+  .about-inner-item-image {
+    display: none;
+  }
+  /* end about cloux box */
+
+  /* start game shop */
+  .gameshop-inner-in2 {
+    flex-wrap: wrap;
+  }
+  .gameshop-inner-in2 .gameshop-inner-in {
+    width: 50%;
+    margin: 15px 0;
+  }
+
+  /* end game shop */
+
   /* start footer */
 
   .footer-main .footer-bottom .footer-inner .footer-col .apps-ul li {
@@ -130,8 +203,19 @@
   .categories-inner-in-items {
     width: 50%;
   }
-
+  .categories-inner-in2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   /* end categories */
+
+  /* start game shop */
+
+  .gameshop-inner-in2 .gameshop-inner-in {
+    width: 100%;
+  }
+
+  /* end game shop */
 
   /* start footer */
 
@@ -155,13 +239,16 @@
   /* end footer */
 }
 @media (max-width: 450px) {
-  .container{
+  .container {
     max-width: 400px;
   }
   .categories-inner-in2 {
     margin-left: 0;
   }
   .categories-inner-in-items {
+    width: 100%;
+  }
+  .featuregame-inner-in-item2 li {
     width: 100%;
   }
 }

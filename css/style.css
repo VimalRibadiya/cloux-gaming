@@ -53,6 +53,9 @@ a {
 .header-inner-item {
   display: flex;
 }
+.header-inner-item .header-logo img {
+  width: 55%;
+}
 
 .header-elements {
   display: flex;
@@ -253,6 +256,16 @@ a {
 
 /* start hero section */
 
+.swiper-pagination-clickable .swiper-pagination-bullet {
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: white;
+}
 .hero-main {
   background-image: url("../images/egypt-slider-1920x941.jpg");
   background-position: center center;
@@ -273,7 +286,7 @@ a {
   height: 100%;
   z-index: 5;
   background: #000000;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 .hero-main-2 {
   background-image: url("../images/fs-7-1920x950.jpg");
@@ -364,6 +377,7 @@ a {
 
 .categories-inner {
   display: block;
+  padding-bottom: 80px;
 }
 
 .categories-inner-in1 {
@@ -408,13 +422,17 @@ a {
   width: 25%;
 }
 
-.image{
+.image {
   position: relative;
+  box-shadow: 0 0 3rem rgba(0,0,0,.23);
 }
-.image img{
+.image img {
   width: 100%;
+  vertical-align: middle;
 }
-
+.content {
+	margin: 10px 0;
+}
 .genre {
   position: absolute;
   bottom: 10%;
@@ -485,8 +503,177 @@ a {
   line-height: 20px;
   margin-top: 7px;
 }
-
+.categories-inner-in3 {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+}
+.categories-inner-in3 a {
+  color: #ffc311;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid #ffc311;
+  padding: 12px 18px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.categories-inner-in3 a:hover {
+  background-color: #ffc311;
+  color: #ffffff;
+}
 /* end catagories */
+
+/* start game search */
+
+.games-top {
+  display: block;
+  height: 100%;
+  background-color: rgba(255, 195, 17, 0.6);
+  position: relative;
+  font-family: "Varela Round", sans-serif;
+}
+
+.games-top::before {
+  content: "";
+  position: absolute;
+  background: url("../images/block-bg-1920x209\ \(1\).jpg");
+  opacity: 0.75;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--White);
+  text-align: left;
+  font-family: sans-serif;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.games-inner {
+  padding: 70px 0;
+}
+
+.games-content {
+  margin: 0 auto;
+  max-width: 1250px;
+}
+
+.games-title {
+  color: #ffffff;
+  font-size: 1.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Titillium Web", serif;
+  padding: 0rem 1.154rem;
+}
+
+.games-form {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  padding: 0 0.7692rem;
+}
+
+.games-input {
+  width: 100%;
+  background-image: none;
+  background-color: #fff;
+  color: #777777;
+  background: transparent;
+  padding: 1rem 0.7rem;
+  border: 1px solid #eeeeee;
+  flex: 1;
+  box-sizing: border-box;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.games-input::placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+
+/* .games-input::after{
+  font-family: Font Awesome\ 5 Free;
+  content: "\f078";
+  font-size: .9rem;
+  font-weight: 600;
+} */
+
+.games-input1 {
+  width: 100%;
+  background-image: none;
+  background-color: #fff;
+  color: #777777;
+  background: transparent;
+  padding: 1rem 1.538rem;
+  border: 1px solid #eeeeee;
+  flex: 1;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.games-input1::placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+
+.games-submit {
+  background-color: #ffffff;
+  padding: 1.1538rem 1.538rem;
+  flex: 1;
+  border: none;
+  color: #ffc311;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.games-submit:hover {
+  background-color: #282828;
+}
+
+.games-input-sub {
+  /* display: none; */
+  position: absolute;
+  width: 188px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.games-input-sub a {
+  display: block;
+  padding: 10px 0 10px 25px;
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+  transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
+}
+
+.games-input-sub a:hover {
+  color: #ffc311;
+}
+
+.games-input-sub li:first-child {
+  padding-top: 10px;
+}
+
+.games-input-sub li:last-child {
+  padding-bottom: 10px;
+}
+
+/* end game search */
 
 /* start cloux-info-main */
 
@@ -627,6 +814,574 @@ a {
   height: 100%;
 }
 /* end cloux-info-main */
+
+/* start fifa soccer */
+
+.Fifa-outer::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  z-index: 1;
+  display: block;
+  background: #000;
+  opacity: 0.6;
+}
+.Fifa-outer {
+  width: 100%;
+  position: relative;
+  background-image: url(../images/fifa-release-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Fifa-inner {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 5;
+  margin-left: -30px;
+  margin-right: -30px;
+  align-items: center;
+  padding: 150px 0;
+}
+
+.fifa-inner-item {
+  width: 50%;
+}
+
+.fifa-inner-item-content {
+  /* position: absolute;
+  width: 42%;
+  padding-top: 135px;
+  padding-bottom: 135px;
+  margin-left: 160px; */
+
+  /* padding-right: 30px; */
+}
+
+.fifa-inner-item-image {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.fifa-inner-item-image img {
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.35);
+  width: 85%;
+}
+.fifa-inner-item-content .title {
+  color: #fff;
+  font-family: "Titillium Web";
+  font-size: 55px;
+  line-height: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.fifa-inner-item-content .title span {
+  color: #ffa725;
+  font-family: "Titillium Web";
+}
+
+.fifa-inner-item-content .par {
+  color: #fff;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 45px 0;
+}
+.fifa-inner-item-content a {
+  padding: 15px 20px;
+  margin: 0 30px;
+  color: #ffa725;
+  text-decoration: none;
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Varela Round", sans-serif;
+  margin-left: 0;
+  border-bottom: 2px solid #ffa725;
+  transition: all 0.3s ease-in-out;
+}
+.fifa-inner-item-content a::before {
+  position: absolute;
+  background-color: #ffc311;
+  width: 100%;
+  height: 0%;
+  bottom: 0;
+  left: 0;
+  content: "";
+  display: block;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.fifa-inner-item-content .btn a:hover::before {
+  color: #fff;
+  height: 100%;
+}
+.fifa-inner-item-content .btn a:hover span {
+  color: white;
+  z-index: 5;
+  position: relative;
+  transition: 0.3s;
+}
+/* end fifa soccer */
+
+/* start feature game */
+.featuregame-inner {
+  padding: 150px 0;
+}
+.featuregame-inner-in-item1 {
+  text-align: center;
+  margin-bottom: 1.923rem;
+  font-size: 45px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #282828;
+  line-height: 1.1;
+  font-family: "Titillium Web";
+}
+
+.featuregame-inner-in-item1 span {
+  color: #ffc311;
+  font-family: "Titillium Web";
+}
+
+.featuregame-inner-in-item2 {
+  margin-top: 4.385rem;
+}
+
+.featuregame-inner-in-item2 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.featuregame-inner-in-item2 li {
+  width: 33.33%;
+  padding: 4px 17px;
+  box-sizing: border-box;
+}
+.featuregame-inner-in-item-image::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  z-index: 5;
+  background: #ffa725;
+  opacity: 0.5;
+  transition: 0.4s;
+}
+.featuregame-inner-in-item-image:hover:before {
+  height: 100%;
+}
+.featuregame-inner-in-item-image {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  margin-bottom: 1.308rem;
+}
+.featuregame-inner-in-item-image img {
+  width: 100%;
+}
+
+.featuregame-inner-in-item-image:hover .main-content {
+  position: absolute;
+  bottom: -20%;
+}
+
+.featuregame-inner-in-item-image:hover h2 {
+  position: absolute;
+  bottom: -20%;
+}
+.featuregame-inner-in-item-image .main-content{
+  position: absolute;
+  bottom: 5%;
+  left: 4%;
+  transition: 0.4s;
+}
+.featuregame-inner-in-item-image h2 {
+  /* position: absolute;
+  bottom: 15%;
+  left: 9%; */
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 0px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 1.385rem;
+  transition: all 0.6s ease-in-out;
+}
+.featuregame-inner-in-item-image h3 {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: -100%;
+  transform: translate(50%, -50%);
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 0px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 1.385rem;
+  text-align: center;
+  transition: 0.4s;
+  width: 100%;
+}
+
+.featuregame-inner-in-item-image:hover h3 {
+  right: 50%;
+}
+
+.featuregame-inner-in-item-image .con-a {
+  /* position: absolute;
+  bottom: 10%;
+  left: 9%; */
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 15px;
+  transition: all 0.6s ease-in-out;
+}
+
+.featuregame-inner-in-item-image .con-b {
+  /* position: absolute;
+  bottom: 10%;
+  left: 50%; */
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 15px;
+  transition: all 0.6s ease-in-out;
+}
+
+.featuregame-inner-in-item-image .con-a::before {
+  content: "\f26c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ffc311;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.featuregame-inner-in-item-image .con-b::before {
+  content: "\f02c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ffc311;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+/* end feature game */
+
+/* start blog and news */
+.news-outer {
+  background-color: #f9f9f9 !important;
+}
+.news-inner {
+  padding: 150px 0;
+}
+.news-inner-in1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #282828;
+  line-height: 1.1;
+  font-family: "Titillium Web";
+}
+
+.news-inner-in1 span {
+  font-family: "Titillium Web";
+  color: #ffa725;
+}
+
+.news-inner-in2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.news-inner-in2 .news-inner-in-item{
+  width: 33.33%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.news-inner-in-image img {
+  width: 100%;
+}
+.news-inner-in-content {
+  line-height: 30px;
+  margin-top: 15px;
+}
+
+.news-inner-in-content .content-a {
+  color: #282828;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Titillium Web";
+  transition: all 0.3s ease-in-out;
+}
+
+.news-inner-in-content .content-a:hover {
+  color: #ffa725;
+}
+
+.news-inner-in-content p {
+  font-family: "Varela Round";
+  line-height: 25px;
+  font-size: 13px;
+  color: #282828;
+  font-family: "Varela Round";
+  margin-top: 15px;
+  margin-bottom: 1.538rem;
+}
+
+.in-item-content {
+  display: flex;
+  align-items: center;
+}
+
+.in-item-content img {
+  width: 5%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.in-item-content a {
+  color: #777;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.in-item-content h2 {
+  color: #777;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.in-item-content h2 i {
+  color: #ffa725;
+  margin-right: 10px;
+  margin-left: 17px;
+  font-size: 15px;
+}
+
+.in-item-content h3 {
+  color: #777;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.in-item-content h3 i {
+  color: #ffa725;
+  margin-right: 10px;
+  margin-left: 17px;
+  font-size: 15px;
+}
+
+/* end blog and news */
+
+/* start about-cloux */
+.about-outer::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  content: "";
+  display: block;
+  background: #000;
+  opacity: 0.6;
+}
+.about-outer {
+  width: 100%;
+  position: relative;
+  background-image: url(../images/content-box-banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.about-inner {
+  z-index: 5;
+  position: relative;
+  padding: 150px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-inner-item {
+  width: 50%;
+}
+
+.about-inner-item-content {
+  /* position: absolute;
+  width: 42%;
+  padding-top: 135px;
+  padding-bottom: 135px;
+  padding-right: 60px;
+  margin-left: -70px; */
+}
+
+.about-inner-item-image {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.about-inner-item-image img {
+  width: 90%;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.35);
+}
+.about-inner-item-content .title {
+  color: #fff;
+  font-family: "Titillium Web";
+  font-size: 55px;
+  line-height: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.about-inner-item-content .title span {
+  color: #ffa725;
+  font-family: "Titillium Web";
+}
+
+.about-inner-item-content .par {
+  color: #fff;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 45px 0;
+}
+.about-inner-item-content a {
+  padding: 15px 20px;
+  /* background-color: red; */
+  margin: 0 30px;
+  color: #ffa725;
+  text-decoration: none;
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Varela Round", sans-serif;
+  margin-left: 0;
+  border-bottom: 2px solid #ffa725;
+  transition: all 0.3s ease-in-out;
+}
+.about-inner-item-content a::before {
+  position: absolute;
+  background-color: #ffc311;
+  width: 100%;
+  height: 0%;
+  bottom: 0;
+  left: 0;
+  content: "";
+  display: block;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.about-inner-item-content a:hover::before {
+  height: 100%;
+  color: #fff;
+}
+.about-inner-item-content a:hover span {
+  color: #fff;
+  z-index: 5;
+  position: relative;
+}
+
+/* end about-cloux */
+
+/* start game shop */
+
+.gameshop-inner {
+  padding: 150px 0;
+}
+
+.gameshop-inner-in1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #282828;
+  line-height: 1.1;
+  font-family: "Titillium Web";
+}
+
+.gameshop-inner-in1 span {
+  font-family: "Titillium Web";
+  color: #ffa725;
+}
+
+.gameshop-inner-in2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+  cursor: pointer;
+}
+.gameshop-inner-in2 .gameshop-inner-in {
+  width: 33.33%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.gameshop-inner-in-content {
+  line-height: 30px;
+  margin-top: 15px;
+}
+.gameshop-inner-in img {
+  width: 100%;
+}
+.gameshop-inner-in-content a {
+  color: #282828;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Titillium Web";
+  transition: all 0.3s ease-in-out;
+}
+
+.gameshop-inner-in-content a:hover {
+  color: #ffa725;
+}
+
+.gameshop-inner-in-content h2 {
+  color: #ffa725;
+  text-decoration: none;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "Titillium Web";
+}
+
+/* end game shop */
 
 /* start footer area */
 
