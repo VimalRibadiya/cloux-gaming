@@ -86,6 +86,31 @@
     max-width: 720px;
   }
 
+  /* start header */
+  .header-outer{
+    background-color: #333;
+  }
+  .header-inner-item .header-logo img {
+    width: 40%;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .header-elements > ul {
+    display: none;
+  }
+
+  .element-btn {
+    display: none;
+  }
+
+  /* end header */
+
   /* start hero section */
 
   .hero-main .hero-inner .hero-content .title {
@@ -101,6 +126,20 @@
   }
 
   /* end categories */
+
+  /* start game search */
+
+  .games-form {
+    flex-direction: column;
+  }
+  .games-input1 {
+    width: 50%;
+  }
+  .dropdown {
+    width: 50%;
+  }
+
+  /* end game search */
 
   /* start cloux-info */
   .cloux-info-main .cloux-info-inner {
