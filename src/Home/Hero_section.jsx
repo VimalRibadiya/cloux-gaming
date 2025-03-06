@@ -11,10 +11,10 @@ const Hero_section = () => {
   return (
     <Swiper
       // install Swiper modules
-      modules={[Pagination, A11y,Autoplay]}
+      modules={[Pagination, A11y, Autoplay]}
       spaceBetween={0}
       slidesPerView={1}
-      autoplay={{delay:3000}}
+      autoplay={{ delay: 3000 }}
       pagination={{ clickable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
@@ -37,9 +37,9 @@ const Hero_section = () => {
                 <div className="title">Egypt and World</div>
                 <div className="detail">
                   Consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                  tincidunt laoreet dolore magna aliquam erat volutpat.
-                  Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                  ullamcorper suscipit.
+                  tincidunt laoreet dolore magna aliquam erat volutpat. Ut wisi
+                  enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                  suscipit.
                 </div>
                 <div className="btns">
                   <a href="#">GAME DETAILS</a>
@@ -68,9 +68,9 @@ const Hero_section = () => {
                 <div className="title">gloria soccer 2018</div>
                 <div className="detail">
                   Consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                  tincidunt laoreet dolore magna aliquam erat volutpat.
-                  Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                  ullamcorper suscipit.
+                  tincidunt laoreet dolore magna aliquam erat volutpat. Ut wisi
+                  enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                  suscipit.
                 </div>
                 <div className="btns">
                   <a href="#">GAME DETAILS</a>
@@ -99,9 +99,9 @@ const Hero_section = () => {
                 <div className="title">return of the cars</div>
                 <div className="detail">
                   Consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                  tincidunt laoreet dolore magna aliquam erat volutpat.
-                  Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                  ullamcorper suscipit.
+                  tincidunt laoreet dolore magna aliquam erat volutpat. Ut wisi
+                  enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                  suscipit.
                 </div>
                 <div className="btns">
                   <a href="#">GAME DETAILS</a>
