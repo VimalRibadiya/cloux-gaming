@@ -45,6 +45,25 @@
 
   /* end blog and news */
 
+  /* start about */
+
+  .banner-text h1 {
+    left: 3%;
+  }
+
+  /* end about */
+
+  /* start contact and contact2 */
+
+  .contact-inner-in1 input {
+    width: 15%;
+  }
+  .contact-inner-in1 textarea {
+    width: 61%;
+  }
+
+  /* end contact and contact2 */
+
   /* start footer */
 
   .footer-main .footer-bottom .footer-inner {
@@ -88,7 +107,7 @@
 
   /* start header */
   .header-outer{
-    background-color: #333;
+    background-color: transparent;
   }
   .header-inner-item .header-logo img {
     width: 40%;
@@ -207,7 +226,29 @@
 
   /* end game shop */
 
-  /* start footer */
+    /* start about */
+
+    .banner-text h1 {
+      left: 5%;
+    }
+    .about2-inner-contents-in {
+      flex-wrap: wrap;
+    }
+  
+    /* end about */
+
+    /* start about and about2 */
+    
+    .contact-inner-in1 input {
+      width: 45%;
+    }
+    .contact-inner-in1 textarea {
+      width: 45%;
+    }
+
+    /* end about and about2 */
+    
+    /* start footer */
 
   .footer-main .footer-bottom .footer-inner .footer-col .apps-ul li {
     width: 100%;
@@ -255,6 +296,40 @@
   }
 
   /* end game shop */
+
+  /* start about alternative */
+
+  .banner-text h1 {
+    font-size: 40px;
+  }
+  .image2 {
+    flex-wrap: wrap;
+  }
+  .image2 img{
+    width: 100%;
+    margin-top: 20px;
+  }
+  /* end about alternative */
+
+  /* start about and about2 */
+
+  .contact-inner {
+    flex-wrap: wrap;
+  }
+  .contact-inner-in1 {
+    width: 100%;
+  }
+  .contact-inner-in2 {
+    margin: 40px 0;
+    width: 100%;
+  }
+  .contact-inner-in1 input {
+    width: 68%;
+  }
+  .contact-inner-in1 textarea {
+    width: 68%;
+  }
+  /* end about and about2 */
 
   /* start footer */
 

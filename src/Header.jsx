@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -181,14 +182,14 @@ const Header = () => {
                         </a>
                         <ul className="sub-menu">
                           <li>
-                            <a href="#" className="sub-menu-item">
+                            <Link to="/about" className="sub-menu-item">
                               about
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#" className="sub-menu-item">
+                            <Link to="/about_alt" className="sub-menu-item">
                               about alternative
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="#" className="sub-menu-item">
@@ -231,14 +232,14 @@ const Header = () => {
                             </a>
                           </li>
                           <li>
-                            <a href="#" className="sub-menu-item">
-                              conctact
-                            </a>
+                            <Link to="/contact" className="sub-menu-item">
+                              contact
+                            </Link>
                           </li>
                           <li>
-                            <a href="#" className="sub-menu-item">
+                            <Link to="/contact2" className="sub-menu-item">
                               contact 2
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a href="#" className="sub-menu-item">

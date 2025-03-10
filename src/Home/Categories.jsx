@@ -104,7 +104,6 @@
 
 // export default Categories;
 
-
 import React, { useState } from "react";
 import Categories_props1 from "./Categories_props1";
 import Categories_props2 from "./Categories_props2";
@@ -116,7 +115,8 @@ const gamesData = [
     genre2: "fps",
     title: "Space Wars",
     platforms: ["steam", "xbox one"],
-    description: "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
+    description:
+      "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
     image: "/cloux-gaming/images/blog2.jpg",
@@ -124,7 +124,8 @@ const gamesData = [
     genre2: "sports",
     title: "Return of the Cars",
     platforms: ["steam", "uplay"],
-    description: "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
+    description:
+      "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
     image: "/cloux-gaming/images/blog3.jpg",
@@ -132,7 +133,8 @@ const gamesData = [
     genre2: "strategy",
     title: "Planes of Gloria",
     platforms: ["uplay", "xbox one"],
-    description: "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
+    description:
+      "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
     image: "/cloux-gaming/images/blog4.jpg",
@@ -140,7 +142,8 @@ const gamesData = [
     genre2: "",
     title: "Earth Wars: History",
     platforms: ["origin", "playstation4"],
-    description: "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
+    description:
+      "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
     image: "/cloux-gaming/images/blog5.jpg",
@@ -148,7 +151,8 @@ const gamesData = [
     genre2: "",
     title: "The Warrior 3",
     platforms: ["origin", "playstation4"],
-    description: "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
+    description:
+      "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
     image: "/cloux-gaming/images/blog6.jpg",
@@ -156,7 +160,8 @@ const gamesData = [
     genre2: "racing",
     title: "Life and Struggle",
     platforms: ["origin", "steam, uplay"],
-    description: "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
+    description:
+      "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
     image: "/cloux-gaming/images/blog7.jpg",
@@ -164,7 +169,8 @@ const gamesData = [
     genre2: "",
     title: "Gloria Soccer 2018",
     platforms: ["origin", "playstation4"],
-    description: "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
+    description:
+      "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
     image: "/cloux-gaming/images/blog8.jpg",
@@ -172,7 +178,8 @@ const gamesData = [
     genre2: "adventure",
     title: "Egypt and World",
     platforms: ["playstation 4", "steam"],
-    description: "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
+    description:
+      "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
 ];
 
@@ -183,17 +190,18 @@ const Categories = () => {
     setSelectedCategory(category);
   };
 
-  const filteredGames = selectedCategory === "all"
-    ? gamesData
-    : gamesData.filter(game => game.platforms.includes(selectedCategory));
+  const filteredGames =
+    selectedCategory === "all"
+      ? gamesData
+      : gamesData.filter((game) => game.platforms.includes(selectedCategory));
 
   return (
-    <div className="categories-outer">
+    <div className="categories`-outer">
       <div className="container">
         <div className="categories-inner">
           {/* Categories Selection */}
           <div className="categories-inner-in1">
-            <Categories_props1 
+            <Categories_props1
               all="all"
               origin="origin"
               playstation4="playstation4"
@@ -207,9 +215,8 @@ const Categories = () => {
           {/* Games List */}
           <div className="categories-inner-in2">
             {filteredGames.length > 0 ? (
-              filteredGames.map((game, index) => (
+              filteredGames.map((game) => (
                 <Categories_props2
-                  key={index}
                   image={game.image}
                   genre1={game.genre1}
                   genre2={game.genre2}
