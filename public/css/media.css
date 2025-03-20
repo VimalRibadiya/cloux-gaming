@@ -248,6 +248,26 @@
 
     /* end about and about2 */
     
+    /* start product */
+    .C2empty .Contact2 h1 {
+      left: 5%;
+    }
+    .product-inner-in {
+      flex-wrap: wrap;
+    }
+    .product-inner-in-item {
+      width: 100%;
+    }
+    .product3-pd-in {
+      flex-wrap: wrap;
+    }
+    .product3-pd-in-item {
+      width: 50%;
+      box-sizing: border-box;
+      margin-bottom: 40px;
+    }
+    /* end product */
+
     /* start footer */
 
   .footer-main .footer-bottom .footer-inner .footer-col .apps-ul li {
@@ -330,6 +350,14 @@
     width: 68%;
   }
   /* end about and about2 */
+
+  /* start product */
+
+  .product3-pd-in-item {
+    width: 100%;
+  }
+
+  /* end product */
 
   /* start footer */
 

@@ -227,9 +227,9 @@ const Header = () => {
                             </a>
                           </li>
                           <li>
-                            <a href="#" className="sub-menu-item">
+                            <Link to="/product" className="sub-menu-item">
                               shop
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to="/contact" className="sub-menu-item">
@@ -299,13 +299,13 @@ const Header = () => {
                             </a>
                             <ul className="sub-menu-in">
                               <li>
-                                <a href="#">games by categories</a>
+                                <Link to="/category_games">games by categories</Link>
                               </li>
                               <li>
-                                <a href="#">games by companies</a>
+                                <Link to="/category_games2">games by companies</Link>
                               </li>
                               <li>
-                                <a href="#">games by genres</a>
+                                <Link to="/category_games3">games by genres</Link>
                               </li>
                               <li>
                                 <a href="#">games by languages</a>
