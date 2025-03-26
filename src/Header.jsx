@@ -130,9 +130,9 @@ const Header = () => {
                   <div className="navbar">
                     <ul>
                       <li>
-                        <a href="#" className="icon">
+                        <Link to="/" className="icon">
                           home
-                        </a>
+                        </Link>
                         <ul className="sub-menu">
                           <li>
                             <a href="#" className="sub-menu-item">
@@ -227,7 +227,7 @@ const Header = () => {
                             </a>
                           </li>
                           <li>
-                            <Link to="/product" className="sub-menu-item">
+                            <Link to="/shop" className="sub-menu-item">
                               shop
                             </Link>
                           </li>

@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Categories_props2 = (a) => {
   return (
     <>
       <div className="categories-inner-in-items">
         <div className="image">
-          <a href="#">
+          <Link to={a.to}>
             <img src={a.image} alt="" />
-          </a>
+          </Link>
           <div className="genre">
             <a href="#">{a.genre1},</a>
             <a href="#">{a.genre2}</a>

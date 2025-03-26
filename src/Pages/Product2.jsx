@@ -2,13 +2,12 @@ import React from "react";
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
 import InnerImageZoom from 'react-inner-image-zoom';
 
-
-const Product = () => {
+const Product2 = () => {
   return (
     <>
       <div className="C2empty">
         <div className="Contact2">
-          <h1>Deadline T-Shirt</h1>
+          <h1>Office Coffee Pack</h1>
         </div>
       </div>
       <div className="empty2"></div>
@@ -16,44 +15,25 @@ const Product = () => {
         <div className="product-container">
           <div className="product-inner">
             <div className="product-inner-in">
-              <span class="onsale">Sale!</span>
               <div className="product-inner-in-item">
                 <div className="product-image">
-                  <InnerImageZoom 
-                    src="/cloux-gaming/images/T_4_front.jpg"
-                    zoomSrc="/cloux-gaming/images/T_4_front.jpg"
+                  <InnerImageZoom
+                    src="/cloux-gaming/images/product-3.jpg"
+                    zoomSrc="/cloux-gaming/images/product-3.jpg"
                     zoomType="hover"
-                    alt="T_4_front"
+                    alt="product-3"
                   />
                   <span class="product-img-span">
                     <i class="fa-solid fa-magnifying-glass"></i>
                   </span>
                   &nbsp;
                 </div>
-                <div className="product-mini-images">
-                  <img
-                    src="/cloux-gaming/images/T_4_front.jpg"
-                    alt=""
-                  />
-                  <img
-                    src="/cloux-gaming/images/T_4_front.jpg"
-                    alt=""
-                  />
-                  <img
-                    src="/cloux-gaming/images/T_4_front.jpg"
-                    alt=""
-                  />
-                  <img
-                    src="/cloux-gaming/images/T_4_front.jpg"
-                    alt=""
-                  />
-                </div>
               </div>
               <div
                 className="product-inner-in-item"
                 style={{ padding: "0 0 220px 0" }}
               >
-                <h1 class="product-title">Deadline T-Shirt</h1>
+                <h1 class="product-title">Office Coffee Pack</h1>
                 <span class="product-span">£89.00</span>&nbsp;
                 <span class="product-spann">£79.00</span>
                 <p>
@@ -276,4 +256,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default Product2;

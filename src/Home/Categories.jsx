@@ -110,6 +110,7 @@ import Categories_props2 from "./Categories_props2";
 
 const gamesData = [
   {
+    to:"/feat_games",
     image: "/cloux-gaming/images/blog1.jpg",
     genre1: "adventure",
     genre2: "fps",
@@ -119,6 +120,7 @@ const gamesData = [
       "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
+    to:"/feat_games2",
     image: "/cloux-gaming/images/blog2.jpg",
     genre1: "racing",
     genre2: "sports",
@@ -128,6 +130,7 @@ const gamesData = [
       "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
+    to:"/feat_games3",
     image: "/cloux-gaming/images/blog3.jpg",
     genre1: "simulation",
     genre2: "strategy",
@@ -137,6 +140,7 @@ const gamesData = [
       "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
+    to:"/feat_games4",
     image: "/cloux-gaming/images/blog4.jpg",
     genre1: "adventure",
     genre2: "",
@@ -146,6 +150,7 @@ const gamesData = [
       "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
+    to:"/feat_games5",
     image: "/cloux-gaming/images/blog5.jpg",
     genre1: "adventure",
     genre2: "",
@@ -155,6 +160,7 @@ const gamesData = [
       "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
+    to:"/feat_games6",
     image: "/cloux-gaming/images/blog6.jpg",
     genre1: "action",
     genre2: "racing",
@@ -164,6 +170,7 @@ const gamesData = [
       "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
+    to:"/feat_games7",
     image: "/cloux-gaming/images/blog7.jpg",
     genre1: "sports",
     genre2: "",
@@ -173,6 +180,7 @@ const gamesData = [
       "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet",
   },
   {
+    to:"/feat_games8",
     image: "/cloux-gaming/images/blog8.jpg",
     genre1: "action",
     genre2: "adventure",
@@ -196,7 +204,7 @@ const Categories = () => {
       : gamesData.filter((game) => game.platforms.includes(selectedCategory));
 
   return (
-    <div className="categories`-outer">
+    <div className="categories-outer">
       <div className="container">
         <div className="categories-inner">
           {/* Categories Selection */}
@@ -217,6 +225,7 @@ const Categories = () => {
             {filteredGames.length > 0 ? (
               filteredGames.map((game) => (
                 <Categories_props2
+                  to={game.to}
                   image={game.image}
                   genre1={game.genre1}
                   genre2={game.genre2}
