@@ -28,6 +28,7 @@ a {
   padding: 0 15px;
   box-sizing: border-box;
 }
+
 .pre-loader {
   display: flex;
   justify-content: center;
@@ -35,6 +36,7 @@ a {
   height: 100vh;
   background-color: white;
 }
+
 /* HTML: <div class="loader"></div> */
 .loader {
   width: 50px;
@@ -44,6 +46,7 @@ a {
   border-radius: 50%;
   animation: l29 2s infinite linear;
 }
+
 @keyframes l29 {
   100% {
     transform: rotate(1turn);
@@ -346,6 +349,7 @@ a {
   vertical-align: middle;
   transition: all 0.3s ease-in-out;
 }
+
 .header-elements > ul > li > a > .i-btn:hover {
   color: #ffc311;
 }
@@ -368,6 +372,7 @@ a {
   cursor: pointer;
   font-size: 10px;
 }
+
 .element-btn .element-btn2 {
   background-color: #ffc311;
   padding: 5px 15px;
@@ -407,7 +412,7 @@ a {
   color: #ffc311;
 }
 
-.navbar > ul > li> a:active{
+.navbar > ul > li > a:active {
   color: #ffa725;
 }
 
@@ -448,11 +453,13 @@ a {
 .navbar > ul > li:hover > .sub-menu {
   display: block;
 }
+
 .sub-menu > li {
   list-style: none;
   border-bottom: 1px solid #eeeeee;
   position: relative;
 }
+
 .sub-menu > li > a {
   display: inline-block;
   padding: 10px 60px 10px 35px;
@@ -468,6 +475,7 @@ a {
 .sub-menu-item:hover {
   color: #ffc311;
 }
+
 .sub-menu > li > .sub-menu-in {
   padding-top: 12px;
   display: none;
@@ -481,9 +489,11 @@ a {
   top: 0px;
   left: 100%;
 }
+
 .navbar > ul > li > ul > li:hover > .sub-menu-in {
   display: block;
 }
+
 .sub-menu-in > li > a {
   display: inline-block;
   padding: 10px 60px 10px 35px;
@@ -495,6 +505,7 @@ a {
   transition: all 0.3s ease-in-out;
   position: relative;
 }
+
 .sub-menu-in > li > a:hover {
   color: #ffc311;
 }
@@ -510,6 +521,7 @@ a {
   transition: all 0.3s ease-in-out;
   z-index: 1000;
 }
+
 .sidebar.open {
   left: 0;
 }
@@ -555,47 +567,57 @@ a {
   position: relative;
   font-size: 1rem;
 }
+
 .sidebar-menu ul li a i {
   position: absolute;
   right: 10%;
   top: 30%;
 }
+
 #home-sub-menu {
   display: none;
 }
+
 #pages-sub-menu {
   display: none;
 }
+
 #games-sub-menu {
   display: none;
 }
+
 #blog-sub-menu {
   display: none;
 }
+
 #arrow-up {
   display: none;
   position: absolute;
   right: 10%;
   top: 30%;
 }
+
 #arrow-up2 {
   display: none;
   position: absolute;
   right: 10%;
   top: 30%;
 }
+
 #arrow-up3 {
   display: none;
   position: absolute;
   right: 10%;
   top: 30%;
 }
+
 #arrow-up4 {
   display: none;
   position: absolute;
   right: 10%;
   top: 30%;
 }
+
 /* Menu toggle button for small screens */
 .menu-toggle {
   display: none;
@@ -603,6 +625,7 @@ a {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 /* end header styles */
 
 /* start hero section */
@@ -614,9 +637,11 @@ a {
   border: 1px solid white;
   background-color: transparent;
 }
+
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: white;
 }
+
 .hero-main {
   background-image: url("../images/egypt-slider-1920x941.jpg");
   background-position: center center;
@@ -627,6 +652,7 @@ a {
   text-align: center;
   color: #ffffff;
 }
+
 .hero-main::before {
   content: "";
   display: block;
@@ -639,6 +665,7 @@ a {
   background: #000000;
   opacity: 0.3;
 }
+
 .hero-main-2 {
   background-image: url("../images/fs-7-1920x950.jpg");
   background-position: center center;
@@ -649,6 +676,7 @@ a {
   text-align: center;
   color: #ffffff;
 }
+
 .hero-main-3 {
   background-image: url("../images/nfs-slider.jpg");
   background-position: center center;
@@ -664,30 +692,36 @@ a {
   position: relative;
   z-index: 5;
 }
+
 .hero-main .hero-inner .hero-content .game-details {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .hero-main .hero-inner .hero-content .game-details li {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 5px;
 }
+
 .hero-main .hero-inner .hero-content .game-details li i {
   color: #ffc311;
   margin: 0 10px;
   font-size: 15px;
 }
+
 .hero-main .hero-inner .hero-content .game-details li a {
   color: white;
   font-size: 12px;
   transition: 0.3s;
 }
+
 .hero-main .hero-inner .hero-content .game-details li a:hover {
   color: #ffc311;
 }
+
 .hero-main .hero-inner .hero-content .title {
   font-size: 80px;
   font-family: "Titillium Web";
@@ -696,10 +730,12 @@ a {
   margin: 20px 0;
   text-transform: uppercase;
 }
+
 .hero-main .hero-inner .hero-content .detail {
   font-size: 15px;
   line-height: 30px;
 }
+
 .hero-main .hero-inner .hero-content .btns a {
   font-size: 14px;
   border-bottom: 0.1538rem solid #282828;
@@ -714,10 +750,12 @@ a {
   cursor: pointer;
   z-index: 10;
 }
+
 .hero-main .hero-inner .hero-content .btns a:hover {
   color: #ffc311;
   border-bottom-color: #ffc311;
 }
+
 /* end hero section */
 
 /* start catagories */
@@ -777,13 +815,16 @@ a {
   position: relative;
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.23);
 }
+
 .image img {
   width: 100%;
   vertical-align: middle;
 }
+
 .content {
   margin: 10px 0;
 }
+
 .genre {
   position: absolute;
   bottom: 10%;
@@ -854,11 +895,13 @@ a {
   line-height: 20px;
   margin-top: 7px;
 }
+
 .categories-inner-in3 {
   display: block;
   text-align: center;
   margin: 20px 0;
 }
+
 .categories-inner-in3 a {
   color: #ffc311;
   display: inline-block;
@@ -870,6 +913,7 @@ a {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
+
 .categories-inner-in3 a:hover {
   background-color: #ffc311;
   color: #ffffff;
@@ -879,6 +923,7 @@ a {
   background-color: #ffa725;
   color: white;
 }
+
 /* end catagories */
 
 /* start game search */
@@ -995,6 +1040,7 @@ a {
 .games-submit:hover {
   background-color: #282828;
 }
+
 .dropdown {
   position: relative;
   max-width: 190px;
@@ -1008,6 +1054,7 @@ a {
   font-weight: 700;
   color: #fff;
 }
+
 .games-input-sub {
   display: block;
   position: absolute;
@@ -1049,21 +1096,25 @@ a {
 .cloux-info-main {
   display: block;
 }
+
 .cloux-info-main .cloux-info-inner {
   padding: 90px 0;
   margin-left: -15px;
   margin-right: -15px;
   display: flex;
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col {
   width: 33.33%;
   padding: 0 15px;
   box-sizing: border-box;
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-content {
   position: relative;
   z-index: 2;
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .top-title {
   color: #ffc311;
   font-weight: 600;
@@ -1072,6 +1123,7 @@ a {
   margin-bottom: 0.6923rem;
   font-size: 13px;
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .main-title {
   font-size: 28px;
   line-height: 2.154rem;
@@ -1080,13 +1132,16 @@ a {
   margin-bottom: 1.692rem;
   font-family: "Titillium Web";
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .text {
   font-size: 12px;
   line-height: 22px;
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-btn {
   margin: 10px 0;
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-btn a {
   font-size: 14px;
   color: #ffc311;
@@ -1100,6 +1155,7 @@ a {
   cursor: pointer;
   z-index: 10;
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-btn a::before {
   position: absolute;
   background-color: #ffc311;
@@ -1112,16 +1168,19 @@ a {
   z-index: 1;
   transition: 0.3s;
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-btn a:hover:before {
   height: 100%;
   transition: 0.3s;
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-btn a:hover span {
   color: white;
   z-index: 2;
   position: relative;
   transition: 0.3s;
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box1 {
   position: relative;
   background-image: url("../images/box-1-bg.jpg");
@@ -1131,6 +1190,7 @@ a {
   padding: 45px;
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.23);
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box1::before {
   content: "";
   display: block;
@@ -1142,6 +1202,7 @@ a {
   width: 100%;
   height: 100%;
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box2 {
   position: relative;
   background-image: url("../images/box-2-bg.jpg");
@@ -1151,6 +1212,7 @@ a {
   padding: 45px;
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.23);
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box2::before {
   content: "";
   display: block;
@@ -1162,6 +1224,7 @@ a {
   width: 100%;
   height: 100%;
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box3 {
   position: relative;
   background-image: url("../images/box-3-bg.jpg");
@@ -1171,6 +1234,7 @@ a {
   padding: 45px;
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.23);
 }
+
 .cloux-info-main .cloux-info-inner .cloux-info-col .cloux-info-box3::before {
   content: "";
   display: block;
@@ -1182,6 +1246,7 @@ a {
   width: 100%;
   height: 100%;
 }
+
 /* end cloux-info-main */
 
 /* start fifa soccer */
@@ -1198,6 +1263,7 @@ a {
   background: #000;
   opacity: 0.6;
 }
+
 .Fifa-outer {
   width: 100%;
   position: relative;
@@ -1222,15 +1288,14 @@ a {
   width: 50%;
 }
 
-.fifa-inner-item-content {
-  /* position: absolute;
+/* .fifa-inner-item-content { */
+/* position: absolute;
   width: 42%;
   padding-top: 135px;
   padding-bottom: 135px;
   margin-left: 160px; */
 
-  /* padding-right: 30px; */
-}
+/* padding-right: 30px; */
 
 .fifa-inner-item-image {
   display: flex;
@@ -1242,6 +1307,7 @@ a {
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.35);
   width: 85%;
 }
+
 .fifa-inner-item-content .title {
   color: #fff;
   font-family: "Titillium Web";
@@ -1264,6 +1330,7 @@ a {
   line-height: 24px;
   margin: 45px 0;
 }
+
 .fifa-inner-item-content a {
   padding: 15px 20px;
   margin: 0 30px;
@@ -1277,6 +1344,7 @@ a {
   border-bottom: 2px solid #ffa725;
   transition: all 0.3s ease-in-out;
 }
+
 .fifa-inner-item-content a::before {
   position: absolute;
   background-color: #ffc311;
@@ -1294,18 +1362,21 @@ a {
   color: #fff;
   height: 100%;
 }
+
 .fifa-inner-item-content .btn a:hover span {
   color: white;
   z-index: 5;
   position: relative;
   transition: 0.3s;
 }
+
 /* end fifa soccer */
 
 /* start feature game */
 .featuregame-inner {
   padding: 150px 0;
 }
+
 .featuregame-inner-in-item1 {
   text-align: center;
   margin-bottom: 1.923rem;
@@ -1338,6 +1409,7 @@ a {
   padding: 4px 17px;
   box-sizing: border-box;
 }
+
 .featuregame-inner-in-item-image::before {
   position: absolute;
   content: "";
@@ -1350,15 +1422,18 @@ a {
   opacity: 0.5;
   transition: 0.4s;
 }
+
 .featuregame-inner-in-item-image:hover::before {
   height: 100%;
 }
+
 .featuregame-inner-in-item-image {
   position: relative;
   overflow: hidden;
   transition: all 0.5s ease;
   margin-bottom: 1.308rem;
 }
+
 .featuregame-inner-in-item-image img {
   width: 100%;
 }
@@ -1372,12 +1447,14 @@ a {
   position: absolute;
   bottom: -20%;
 }
+
 .featuregame-inner-in-item-image .main-content {
   position: absolute;
   bottom: 5%;
   left: 4%;
   transition: 0.4s;
 }
+
 .featuregame-inner-in-item-image h2 {
   /* position: absolute;
   bottom: 15%;
@@ -1391,6 +1468,7 @@ a {
   margin-bottom: 1.385rem;
   transition: all 0.6s ease-in-out;
 }
+
 .featuregame-inner-in-item-image h3 {
   position: absolute;
   top: 50%;
@@ -1465,9 +1543,11 @@ a {
 .news-outer {
   background-color: #f9f9f9 !important;
 }
+
 .news-inner {
   padding: 150px 0;
 }
+
 .news-inner-in1 {
   text-align: center;
   margin-bottom: 50px;
@@ -1490,14 +1570,17 @@ a {
   align-items: center;
   cursor: pointer;
 }
+
 .news-inner-in2 .news-inner-in-item {
   width: 33.33%;
   padding: 0 15px;
   box-sizing: border-box;
 }
+
 .news-inner-in-image img {
   width: 100%;
 }
+
 .news-inner-in-content {
   line-height: 30px;
   margin-top: 15px;
@@ -1587,6 +1670,7 @@ a {
   background: #000;
   opacity: 0.6;
 }
+
 .about-outer {
   width: 100%;
   position: relative;
@@ -1608,24 +1692,27 @@ a {
   width: 50%;
 }
 
+/* 
 .about-inner-item-content {
-  /* position: absolute;
+  position: absolute;
   width: 42%;
   padding-top: 135px;
   padding-bottom: 135px;
   padding-right: 60px;
-  margin-left: -70px; */
-}
+  margin-left: -70px;
+} */
 
 .about-inner-item-image {
   display: flex;
   justify-content: start;
   align-items: center;
 }
+
 .about-inner-item-image img {
   width: 90%;
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.35);
 }
+
 .about-inner-item-content .title {
   color: #fff;
   font-family: "Titillium Web";
@@ -1648,6 +1735,7 @@ a {
   line-height: 24px;
   margin: 45px 0;
 }
+
 .about-inner-item-content a {
   padding: 15px 20px;
   /* background-color: red; */
@@ -1662,6 +1750,7 @@ a {
   border-bottom: 2px solid #ffa725;
   transition: all 0.3s ease-in-out;
 }
+
 .about-inner-item-content a::before {
   position: absolute;
   background-color: #ffc311;
@@ -1679,6 +1768,7 @@ a {
   height: 100%;
   color: #fff;
 }
+
 .about-inner-item-content a:hover span {
   color: #fff;
   z-index: 5;
@@ -1716,18 +1806,22 @@ a {
   padding: 17px;
   cursor: pointer;
 }
+
 .gameshop-inner-in2 .gameshop-inner-in {
   width: 33.33%;
   padding: 0 15px;
   box-sizing: border-box;
 }
+
 .gameshop-inner-in-content {
   line-height: 30px;
   margin-top: 15px;
 }
+
 .gameshop-inner-in img {
   width: 100%;
 }
+
 .gameshop-inner-in-content a {
   color: #282828;
   text-decoration: none;
@@ -1762,6 +1856,7 @@ a {
 .about2-inner {
   padding: 100px 40px;
 }
+
 .about2-inner-banner::before {
   position: absolute;
   width: 100%;
@@ -1774,12 +1869,14 @@ a {
   background: #000;
   opacity: 0.6;
 }
+
 .about2-inner-banner {
   background-image: url("../images/about-image.jpg");
   background-repeat: no-repeat;
   height: 300px;
   position: relative;
 }
+
 .banner-text h1 {
   position: absolute;
   font-family: "Titillium Web";
@@ -1796,6 +1893,7 @@ a {
   padding: 40px 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 .about2-inner-contents p {
   font-family: "Varela Round";
   font-size: 14.4px;
@@ -1880,6 +1978,7 @@ a {
 .image2 img {
   width: 48.5%;
 }
+
 /* end about */
 
 /* start contact and contact 2 */
@@ -1946,6 +2045,7 @@ a {
   font-family: "Varela Round";
   width: 20%;
 }
+
 .contact-inner-in1 textarea {
   padding: 17px 135px 17px 20px;
   background-color: #fff;
@@ -1960,8 +2060,8 @@ a {
   text-transform: capitalize;
   font-family: "Varela Round";
   width: 66%;
-
 }
+
 .contact-inner-in1 .con-btn {
   padding: 15px 30px;
   border: none;
@@ -2060,7 +2160,7 @@ a {
   bottom: 95%;
   right: 97.5%;
   color: #fff;
-  background-color: #FFA725;
+  background-color: #ffa725;
   padding: 15px 8px;
   border-radius: 50%;
   text-transform: uppercase;
@@ -2115,14 +2215,13 @@ a {
   font-weight: 800;
   font-family: "Titillium Web";
   color: #282828;
-
 }
 
 .product-inner-in-item .product-span {
-  color: #FFA725;
+  color: #ffa725;
   font-size: 33px;
   line-height: 2.308rem;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   font-weight: 800;
   text-transform: uppercase;
   text-decoration: line-through;
@@ -2131,10 +2230,10 @@ a {
 }
 
 .product-inner-in-item .product-spann {
-  color: #FFA725;
+  color: #ffa725;
   font-size: 33px;
   line-height: 2.308rem;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   font-weight: 800;
   text-transform: uppercase;
   text-decoration: underline;
@@ -2144,7 +2243,7 @@ a {
   font-size: 14px;
   line-height: 1.8;
   color: #555;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   padding-top: 30px;
 }
 
@@ -2154,22 +2253,22 @@ a {
   text-align: center;
   width: 15%;
   color: #555;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   margin-right: 5px;
 }
 
 .product-inner-in-item .product-btn {
   padding: 15px 30px;
-  background-color: #FFA725;
+  background-color: #ffa725;
   transition: 0.2s;
   text-transform: uppercase;
   outline: 0;
   font-weight: 600;
   border-radius: 0;
-  color: #FFF;
+  color: #fff;
   border: 0;
   font-size: 14px;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   line-height: 1.8;
   margin-bottom: 30px;
 }
@@ -2181,25 +2280,23 @@ a {
 
 .product-inner-in-item .product-span3 {
   font-size: 14px;
-  background: #FFF;
+  background: #fff;
   line-height: 1.8;
   color: #555;
-  font-family: 'Varela Round';
-
+  font-family: "Varela Round";
 }
 
 .product-inner-in-item .product-span3 a {
   font-size: 14px;
-  background: #FFF;
+  background: #fff;
   line-height: 1.8;
   color: black;
   transition: 0.2s;
-  font-family: 'Varela Round';
-
+  font-family: "Varela Round";
 }
 
 .product-inner-in-item .product-span3 a:hover {
-  color: #FFA725;
+  color: #ffa725;
 }
 
 /* second product */
@@ -2215,7 +2312,7 @@ a {
   color: #fff;
   font-weight: 600;
   font-size: 14px;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
 }
 
 .product-inner-in2 .product-inner-in-item2 .product2-a2 {
@@ -2225,8 +2322,8 @@ a {
   color: #ffa725;
   font-weight: 600;
   font-size: 14px;
-  font-family: 'Varela Round';
-  transition: .2s;
+  font-family: "Varela Round";
+  transition: 0.2s;
 }
 
 .product-inner-in2 .product-inner-in-item2 .product2-a2:hover {
@@ -2250,8 +2347,7 @@ a {
   font-size: 14px;
   line-height: 1.8;
   color: #555;
-  font-family: 'Varela Round';
-  
+  font-family: "Varela Round";
 }
 
 /* third product */
@@ -2272,7 +2368,7 @@ a {
   color: #ffa725;
 }
 
-.product-inner-in3{
+.product-inner-in3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2315,18 +2411,18 @@ a {
   font-size: 25px;
   text-transform: uppercase;
   font-family: "Titillium Web";
-} 
+}
 
-.product-inner-in-item3-in{
+.product-inner-in-item3-in {
   width: 100%;
   display: flex;
 }
 
-.product3-inner-in3-in{
+.product3-inner-in3-in {
   width: 100%;
 }
 
-.pdd-h2{
+.pdd-h2 {
   font-size: 30px;
   line-height: 2.154rem;
   font-weight: 800;
@@ -2337,54 +2433,112 @@ a {
   padding-top: 60px;
   padding-bottom: 30px;
 }
-
-.product3-pd-in{
+.product3-pd {
   display: flex;
+  /* align-items: center; */
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.1);
+  padding: 35px;
+  flex-direction: column;
+}
+.product3-pd .shop-up {
+  display: flex;
+  justify-content: space-between;
+}
+.product3-pd .shop-up p {
+  color: #4a4a4a;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 14px;
+}
+.product3-pd .shop-up select {
+  display: block;
+  width: 20%;
+  padding: 15px 12px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d5d5d5;
+  color: #555;
+  box-shadow: none;
+  line-height: 1.8;
+  height: 100%;
+  transition: 0.2s;
+  border-radius: 0;
+  outline: 0;
+  margin-right: 15px;
+}
+.product3-pd .shop-up select option {
+  color: #555;
+  line-height: 1.8;
+  font-size: 0.9231rem;
+}
+.product3-pd-in {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.product3-pd-in-item{
-  width: 33.33%;
-  padding:0 15px;
-  
+.product3-pd-in-item {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin: 20px 0;
 }
-
-.product3-pd-in .product3-pd-in-item-image img{
+.product3-pd-in .product3-pd-in-item-image img {
   width: 100%;
 }
 
-.pd3-h2{
+.pd3-h2 {
   color: black;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 21px;
   text-transform: uppercase;
   font-family: "Titillium Web";
   font-weight: 800;
-
 }
 
-.pd3-span{
+.pd3-span {
   color: #ffa725;
   text-decoration: none;
   font-size: 25px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
 }
 
-.product3-pd-in-item-content a{
+.product3-pd-in-item-content a {
   padding: 15px 25px;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   background-color: #ffa725;
   color: #fff;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
-  
 }
+.nav {
+	margin: 50px 0;
+}
+.product3-pd ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product3-pd ul li {
+  margin: 0 10px;
+}
+.product3-pd ul li span {
+  border: 1px solid #ffa725;
+  padding: 15px 25px;
+  background-color: #ffa725;
+  color: white;
+}
+.product3-pd ul li a {
+  border: 1px solid #ffa725;
+  padding: 15px 25px;
 
+}
 /* end product */
 
 /* start footer area */
@@ -2396,6 +2550,7 @@ a {
   background-color: rgba(255, 195, 17, 0.6);
   position: relative;
 }
+
 .footer-top::before {
   content: "";
   position: absolute;
@@ -2413,6 +2568,7 @@ a {
   right: 0;
   z-index: -1;
 }
+
 .newsletter-inner {
   padding: 70px 0;
 }
@@ -2520,46 +2676,56 @@ a {
   background-color: #111111;
   color: white;
 }
+
 .footer-main .footer-bottom .footer-inner {
   display: flex;
   padding: 60px 0;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col {
   width: 33.33%;
   padding: 0 10px;
   box-sizing: border-box;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col h2 {
   font-weight: 900;
   font-family: "Titillium Web";
   margin: 25px 0;
   font-size: 28px;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col h2 span {
   color: #ffc311;
   font-weight: 900;
   font-family: "Titillium Web";
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col p {
   font-size: 13px;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .about-ul {
   display: flex;
   flex-wrap: wrap;
   margin-top: 25px;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .about-ul li {
   width: 50%;
   margin: 5px 0;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .about-ul li a {
   color: white;
   font-size: 13px;
   transition: 0.3s;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .about-ul li a:hover {
   color: #ffc311;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .about-ul li a::before {
   content: "";
   display: inline-block;
@@ -2569,19 +2735,23 @@ a {
   border-top: 5px solid transparent;
   margin-right: 15px;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .post-item {
   display: flex;
   margin: 10px 0;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .post-info {
   margin-left: 15px;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .post-item .post-info a {
   color: white;
   font-weight: 600;
   font-size: 13px;
   transition: 0.3s;
 }
+
 .footer-main
   .footer-bottom
   .footer-inner
@@ -2591,10 +2761,12 @@ a {
   a:hover {
   color: #ffc311;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .post-item .post-info p {
   font-size: 10px;
   margin: 5px 0;
 }
+
 .footer-main
   .footer-bottom
   .footer-inner
@@ -2606,16 +2778,19 @@ a {
   color: #ffc311;
   margin-right: 5px;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .apps-ul {
   display: flex;
   margin: 0 -0.5385rem -1.538rem;
   flex-wrap: wrap;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .apps-ul li {
   width: 50%;
   box-sizing: border-box;
   padding: 0 10px 18px;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .apps-ul li a {
   display: flex;
   /* justify-content: center; */
@@ -2625,54 +2800,65 @@ a {
   border: 1px solid rgb(47, 47, 47);
   transition: 0.3s;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .apps-ul li a:hover {
   background-color: #ffc311;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .apps-ul li a i {
   font-size: 25px;
   margin-right: 10px;
 }
+
 .footer-main .footer-bottom .footer-inner .footer-col .apps-ul li a p {
   font-size: 12px;
 }
+
 .footer-main .footer-copyright {
   background-color: #070707;
 }
+
 .footer-main .footer-copyright .footer-inner {
   display: flex;
   justify-content: space-between;
   padding: 25px 0;
 }
+
 .footer-main .footer-copyright .footer-inner .copyright-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .footer-main .footer-copyright .footer-inner .copyright-content .logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .footer-main .footer-copyright .footer-inner .copyright-content .logo img {
   height: 15px;
 }
+
 .footer-main .footer-copyright .footer-inner .copyright-content .text {
   color: white;
   font-size: 12px;
   margin-left: 20px;
 }
+
 .footer-main .footer-copyright .footer-inner .menu ul {
   display: flex;
 }
+
 .footer-main .footer-copyright .footer-inner .menu ul li a {
   color: white;
   font-size: 13px;
   padding: 0 15px;
 }
+
 /* end footer area */
 
-
-.cat-games-title h1{
+.cat-games-title h1 {
   margin: 0;
   text-transform: uppercase;
   font-size: 50px;
@@ -2683,3 +2869,695 @@ a {
   top: 50%;
   left: 13%;
 }
+
+.space-main {
+  background: url(../images/space-img-bg.jpg);
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.space-main::before {
+  content: "";
+  display: block;
+  background: #000000;
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.space-title h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 800;
+  position: absolute;
+  font-family: "Titillium Web";
+  top: 50%;
+  left: 13%;
+}
+
+.feat-game-inner-in {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 100%;
+  gap: 30px;
+}
+
+.feat-game-inner-in-item1 {
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.feat-game-inner-in-item2 {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.feat-game-inner-in-item1-image .main-img img {
+  width: 100%;
+  height: 500px;
+}
+
+.main-img {
+  position: relative;
+}
+
+.main-img i:first-child {
+  position: absolute;
+  top: 0%;
+  left: -10%;
+  padding: 15px 18px;
+  background-color: #ffa725;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main-img i:last-child {
+  position: absolute;
+  top: 10%;
+  left: -10%;
+  padding: 15px 16px;
+  background-color: #fff;
+  color: #ffa725;
+  border: 1px solid #ffa725;
+  margin-top: 15px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-img i:last-child:hover {
+  background-color: #ffa725;
+  color: #fff;
+}
+
+.mini-imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.feat-game-inner-in-item1-image .mini-imgs img {
+  width: 100px;
+}
+
+.feat-game-inner-in-item2-content1 {
+  padding: 40px;
+  line-height: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.feat-game-inner-in-item2-content1 .mini-title1 {
+  font-size: 30px;
+  font-family: "Titillium Web";
+  text-transform: uppercase;
+  color: #282828;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.feat-game-inner-in-item2-content1 .mini-title1 span {
+  color: #ffa725;
+  font-weight: 800;
+  font-family: "Titillium Web";
+}
+
+.feat-game-inner-in-item2-content1 .mini-content1 ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.feat-game-inner-in-item2-content1 .mini-content1 ul li .genre1 i {
+  color: #ffa725;
+  padding-right: 15px;
+  vertical-align: middle;
+  font-size: 17px;
+}
+
+.feat-game-inner-in-item2-content1 .mini-content1 ul li .genre1 {
+  text-transform: uppercase;
+  color: #555;
+  font-family: "Varela Round";
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.feat-game-inner-in-item2-content1 .mini-content1 ul li .genre-in a {
+  color: #777;
+  font-family: "Varela Round";
+  transition: all 0.3s ease-in-out;
+}
+
+.feat-game-inner-in-item2-content1 .mini-content1 ul li .genre-in a:hover {
+  color: #ffc311;
+}
+
+.feat-game-inner-in-item2-content2 {
+  padding: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.feat-game-inner-in-item2-content2 .mini-title1 {
+  font-size: 30px;
+  font-family: "Titillium Web";
+  text-transform: uppercase;
+  color: #282828;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.feat-game-inner-in-item2-content2 .mini-title1 span {
+  color: #ffa725;
+  font-weight: 800;
+  font-family: "Titillium Web";
+}
+
+.feat-game-inner-in-item2-content2 .main2-img img {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.feat-game-inner-in-item2-content2 .main2-p p {
+  color: #555;
+  font-family: "Varela Round";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.feat-game-inner-in-item2-content2 .main2-p p strong {
+  font-family: "Varela Round";
+}
+
+.feat-game-inner-in-item1-content1 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+}
+
+.feat-game-inner-in-item1-content1 .mini-title1 {
+  font-size: 30px;
+  font-family: "Titillium Web";
+  text-transform: uppercase;
+  color: #282828;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.feat-game-inner-in-item1-content1 .mini-title1 span {
+  color: #ffa725;
+  font-weight: 800;
+  font-family: "Titillium Web";
+}
+
+.feat-game-inner-in-item1-content1 .main1-content p {
+  color: #555;
+  font-family: "Varela Round";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.feat-game-inner-in-item1-content1 .main1-content p strong,
+del,
+u {
+  font-family: "Varela Round";
+}
+
+.feat-game-inner-in-item1-content1 .main1-content p span {
+  font-weight: 600;
+  font-family: "Varela Round";
+  color: #ffa725;
+}
+
+.feat-game-inner-in-item1-content1 .main1-content ul {
+  padding-left: 40px;
+}
+
+.feat-game-inner-in-item1-content1 .main1-content ul li {
+  list-style: disc;
+  font-size: 14px;
+  color: #555;
+  line-height: 25px;
+  font-family: "Varela Round";
+}
+
+.feat-game-inner-in-item2-content3 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+}
+
+.feat-game-inner-in-item2-content3 .mini-title1 {
+  font-size: 30px;
+  font-family: "Titillium Web";
+  text-transform: uppercase;
+  color: #282828;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.feat-game-inner-in-item2-content3 .mini2-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feat-game-inner-in-item2-content3 .mini2-content h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffa725;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f3e5e5;
+  font-family: "Varela Round";
+}
+
+.feat-game-inner-in-item2-content3 .mini2-content ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f3e5e5;
+}
+
+.feat-game-inner-in-item2-content3 .mini2-content ul li a {
+  color: #555;
+  font-size: 12px;
+  font-family: "Varela Round";
+  line-height: 20px;
+}
+
+.feat-game-inner-in-item2-content3 .mini2-content ul li i {
+  color: #ffa725;
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.feat-game-inner-in-item1-content2 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+}
+
+.feat-game-inner-in-item1-content2 .mini-title1 {
+  font-size: 30px;
+  font-family: "Titillium Web";
+  text-transform: uppercase;
+  color: #282828;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+
+.feat-game-inner-in-item1-content2 .mini-title1 span {
+  color: #ffa725;
+  font-weight: 800;
+  font-family: "Titillium Web";
+}
+
+.feat-game-inner-in-item1-content2 .mini-btns {
+  display: flex;
+  align-items: center;
+}
+
+.feat-game-inner-in-item1-content2 .mini-btns li a {
+  font-family: "Varela Round";
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.feat-game-inner-in-item1-content2 .mini-btns li:first-child a {
+  color: #fff;
+  background-color: #ffa725;
+  padding: 20px;
+  margin: 0 10px 0 0;
+}
+
+.feat-game-inner-in-item1-content2 .mini-btns li:last-child a {
+  background-color: #fff;
+  padding: 19px;
+  border: 1px solid #ffa725;
+  color: #ffa725;
+  margin: 0 0 0 10px;
+}
+
+.feat-game-inner-in-item1-content2 .minimum h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffa725;
+  padding-bottom: 10px;
+  font-family: "Varela Round";
+  padding-top: 50px;
+}
+
+.feat-game-inner-in-item1-content2 .minimum ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  line-height: 35px;
+}
+
+.feat-game-inner-in-item1-content2 .minimum ul li .genre2 {
+  text-transform: uppercase;
+  color: #555;
+  font-family: "Varela Round";
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.feat-game-inner-in-item1-content2 .minimum ul li p {
+  color: #555;
+  font-family: "Varela Round";
+  transition: all 0.3s ease-in-out;
+  padding-left: 20px;
+}
+
+.feat-game-inner-in-item1-content2 .Recommended h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffa725;
+  padding-bottom: 10px;
+  font-family: "Varela Round";
+  padding-top: 20px;
+}
+
+.feat-game-inner-in-item1-content2 .Recommended p {
+  color: #555;
+  font-family: "Varela Round";
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.feat-game-inner-in-item2-content4 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+}
+
+.feat-game-inner-in-item2-content4 .in-con4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feat-game-inner-in-item2-content4 .in-con4 img {
+  padding-right: 20px;
+}
+
+.feat-game-inner-in-item2-content4 .in-con4 .text,
+strong {
+  position: sticky;
+  color: #555;
+  font-family: "Varela Round";
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.feat-game-inner-in-item1-content3 .social-media ul {
+  display: flex;
+  align-items: center;
+}
+
+.feat-game-inner-in-item1-content3 .social-media ul li a {
+  color: #fff;
+  font-family: "Varela Round";
+  text-transform: capitalize;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.feat-game-inner-in-item1-content3 .social-media ul li a i {
+  font-size: 17px;
+}
+
+.feat-game-inner-in-item1-content3 .social-media ul li:first-child a {
+  background-color: #3b5998;
+  padding: 23px 45px 20.5px 45px;
+  font-size: 13px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.feat-game-inner-in-item1-content3 .social-media ul li:first-child a:hover {
+  background-color: #ffa725;
+}
+.feat-game-inner-in-item1-content3 .social-media ul li:nth-child(2) a {
+  background-color: #1da1f2;
+  padding: 23px 42.5px 20.5px 42.5px;
+  font-size: 13px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.feat-game-inner-in-item1-content3 .social-media ul li:nth-child(3) a {
+  background-color: #dd4b39;
+  padding: 20px;
+}
+.feat-game-inner-in-item1-content3 .social-media ul li:nth-child(4) a {
+  background-color: #bd081c;
+  padding: 20px;
+}
+.feat-game-inner-in-item1-content3 .social-media ul li:nth-child(5) a {
+  background-color: #0077b5;
+  padding: 20px;
+}
+.feat-game-inner-in-item1-content3 .social-media ul li:nth-child(6) a {
+  background-color: #128c7e;
+  padding: 20px;
+}
+.feat-game-inner-in-item1-content3 .social-media ul li:nth-child(7) a {
+  background-color: #282828;
+  padding: 20px;
+}
+
+.feat-game-inner-in-item1-content3 .social-media ul li:nth-child(2) a:hover {
+  background-color: #ffa725;
+}
+.feat-game-inner-in-item1-content3 .social-media ul li:nth-child(3) a:hover {
+  background-color: #ffa725;
+}
+.feat-game-inner-in-item1-content3 .social-media ul li:nth-child(4) a:hover {
+  background-color: #ffa725;
+}
+.feat-game-inner-in-item1-content3 .social-media ul li:nth-child(5) a:hover {
+  background-color: #ffa725;
+}
+.feat-game-inner-in-item1-content3 .social-media ul li:nth-child(6) a:hover {
+  background-color: #ffa725;
+}
+.feat-game-inner-in-item1-content3 .social-media ul li:nth-child(7) a:hover {
+  background-color: #ffa725;
+}
+
+.feat-game-inner-in-item2-content5 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+}
+
+.feat-game-inner-in-item2-content5 .in2-con5 p {
+  font-size: 15px;
+  font-family: 500;
+  color: #555;
+  font-family: "varela round";
+  line-height: 25px;
+}
+
+.feat-game-inner-in-item2-content5 .in2-con5 .in2-con5-btn a {
+  padding: 15px 25px;
+  border: 2px solid #ffa725;
+  margin-right: 30px;
+  color: #ffa725;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "varela round";
+  transition: all 0.3s ease-in-out;
+}
+
+.feat-game-inner-in-item2-content5 .in2-con5 .in2-con5-btn a:hover {
+  background-color: #ffa725;
+  color: #fff;
+}
+
+.feat-game-inner-in-item1-content4 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+}
+
+.feat-game-inner-in-item1-content4 .mini-title1 {
+  font-size: 30px;
+  font-family: "Titillium Web";
+  text-transform: uppercase;
+  color: #282828;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+
+.feat-game-inner-in-item1-content4 .mini-title1 span {
+  color: #ffa725;
+  font-weight: 800;
+  font-family: "Titillium Web";
+}
+
+.feat-game-inn {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.feat-game-inner-in2 {
+  padding: 40px;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.1);
+}
+
+.feat-game-inner-in2 .mini-title1 {
+  font-size: 30px;
+  font-family: "Titillium Web";
+  text-transform: uppercase;
+  color: #282828;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.mini-in-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+}
+
+.mini-in-con-image {
+  width: 10%;
+}
+
+.mini-in-con-image img {
+  width: 100%;
+}
+
+.mini-in-con-content {
+  width: 90%;
+}
+
+.mini-in-con .mini-in-con-content h3 {
+  font-size: 20px;
+  font-family: "Titillium Web";
+  text-transform: uppercase;
+  color: #ffa725;
+  font-weight: 800;
+}
+
+.mini-in-con .mini-in-con-content p {
+  font-size: 13px;
+  font-family: 500;
+  color: #555;
+  font-family: "varela round";
+  line-height: 25px;
+}
+
+.mini-in-con .mini-in-con-content ul li a {
+  font-size: 10px;
+  font-family: 500;
+  color: #555;
+  font-family: "varela round";
+  line-height: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  margin-left: 20px;
+}
+
+.mini-in-con .mini-in-con-content ul li:first-child a {
+  margin-left: 0;
+}
+
+.mini-in-con .mini-in-con-content ul li a i {
+  color: #ffa725;
+  font-size: 13px;
+  padding-right: 10px;
+}
+
+.mini-in-con .mini-in-con-content ul li a:hover {
+  color: #ffa725;
+}
+
+.feat-game-inner-in3 {
+  padding: 40px;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.1);
+}
+
+.feat-game-inner-in3 .mini-title1 {
+  font-size: 30px;
+  font-family: "Titillium Web";
+  text-transform: uppercase;
+  color: #282828;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.feat-game-inner-in3 .mini-title1 span {
+  color: #ffa725;
+  font-family: "Titillium Web";
+  font-weight: 800;
+}
+
+.form-textarea {
+  color: rgb(85, 85, 85);
+  box-shadow: rgba(0, 123, 255, 0.004) 0px 0px 0px 0;
+}
+.form-control {
+  width: 100%;
+  border: 1px solid #cdc6c6;
+}
+
+.form-textarea .form-control::placeholder {
+  padding: 20px;
+  font-family: "varela round";
+}
+
+.feat-game-inner-in3 .form-data {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.feat-game-inner-in3 .form-data input {
+  width: 100%;
+  padding: 20px;
+  text-transform: capitalize;
+  color: rgb(85, 85, 85);
+  font-family: "varela round";
+  border: 1px solid #cdc6c6;
+}
+
+.feat-game-inner-in3 .form-data input:last-child {
+  background-color: #ffa725;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+}
+
+/* start shop */
+
+.shop-main {
+  padding: 100px 0;
+}
+.product3-pd-in-item-content {
+  line-height: 45px;
+}
+
+/* end shop */
