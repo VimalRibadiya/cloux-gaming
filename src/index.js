@@ -8,19 +8,12 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Contact from "./Pages/Contact";
 import Contact2 from "./Pages/Contact2";
-import Product5 from "./Pages/Product5";
 import Categories_games from "./Pages/Category_games";
 import Categories_games2 from "./Pages/Category_games2";
 import Categories_games3 from "./Pages/Category_games3";
 import Feat_games from "./Pages/Feat_games";
 import Shop from "./Pages/Shop";
 import Product1 from "./Pages/Product1";
-import Product2 from "./Pages/Product2";
-import Product3 from "./Pages/Product3";
-import Product4 from "./Pages/Product4";
-import Product6 from "./Pages/Product6";
-import Product7 from "./Pages/Product7";
-import Product8 from "./Pages/Product8";
 import Feat_games2 from "./Pages/Feat_games2";
 import Feat_games3 from "./Pages/Feat_games3";
 import Feat_games4 from "./Pages/Feat_games4";
@@ -41,14 +34,7 @@ root.render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/contact2" element={<Contact2 />} />
         <Route path="/shop" element={<Shop />} />
-        <Route path="/product1" element={<Product1 />} />
-        <Route path="/product2" element={<Product2 />} />
-        <Route path="/product3" element={<Product3 />} />
-        <Route path="/product4" element={<Product4 />} />
-        <Route path="/product5" element={<Product5 />} />
-        <Route path="/product6" element={<Product6 />} />
-        <Route path="/product7" element={<Product7 />} />
-        <Route path="/product8" element={<Product8 />} />
+        <Route path="/product/:id" element={<Product1 />} />
         <Route path="/feat_games" element={<Feat_games />} />
         <Route path="/feat_games2" element={<Feat_games2 />} />
         <Route path="/feat_games3" element={<Feat_games3 />} />

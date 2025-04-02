@@ -1,13 +1,76 @@
 import React from "react";
-import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
-import InnerImageZoom from 'react-inner-image-zoom';
+import "react-inner-image-zoom/lib/InnerImageZoom/styles.css";
+import InnerImageZoom from "react-inner-image-zoom";
+import { useParams } from "react-router-dom";
 
 const Product1 = () => {
+  const { id } = useParams();
+
+  const products = [
+    {
+      id: 1,
+      heading: "Game Pack DVD",
+      image: "/cloux-gaming/images/cd_5_angle.jpg",
+      title: "Office Coffee Pack",
+      price: "£79.00",
+    },
+    {
+      id: 2,
+      heading: "Office Coffee Pack",
+      image: "/cloux-gaming/images/product-3.jpg",
+      title: "Game Pack DVD",
+      price: "£89.00",
+    },
+    {
+      id: 3,
+      heading: "Pulse Headphone",
+      image: "/cloux-gaming/images/product-2.jpg",
+      title: "Pulse Headphone",
+      price: "£79.00",
+    },
+    {
+      id: 4,
+      heading: "X3600 Headphone",
+      image: "/cloux-gaming/images/product-1.jpg",
+      title: "X3600 Headphone",
+      price: "£92.00",
+    },
+    {
+      id: 5,
+      heading: "Deadline T-Shirt",
+      image: "/cloux-gaming/images/T_4_front.jpg",
+      title: "Deadline T-Shirt",
+      price: "£59.00",
+    },
+    {
+      id: 6,
+      heading: "Xtra Sweatshirt",
+      image: "/cloux-gaming/images/hoodie_6_front.jpg",
+      title: "Xtra Sweatshirt",
+      price: "£79.00",
+    },
+    {
+      id: 7,
+      heading: "Cloud Game DVD",
+      image: "/cloux-gaming/images/cd_6_angle.jpg",
+      title: "Cloud Game DVD",
+      price: "£79.00",
+    },
+    {
+      id: 8,
+      heading: "Extra Edition",
+      image: "/cloux-gaming/images/egypt-product-1.jpg",
+      title: "Extra Edition",
+      price: "£79.00",
+    }
+  ];
+  const product = products.find((p) => p.id === parseInt(id));
+
   return (
     <>
       <div className="C2empty">
         <div className="Contact2">
-          <h1>Game Pack DVD</h1>
+          <h1>{product.heading}</h1>;
         </div>
       </div>
       <div className="empty2"></div>
@@ -18,25 +81,23 @@ const Product1 = () => {
               <div className="product-inner-in-item">
                 <div className="product-image">
                   <InnerImageZoom
-                    src="/cloux-gaming/images/cd_5_angle.jpg"
-                    zoomSrc="/cloux-gaming/images/cd_5_angle.jpg"
+                    src={product.image}
+                    zoomSrc={product.image}
                     zoomType="hover"
-                    alt="cd_5_angle"  
+                    alt="cd_5_angle"
                   />
                   <span class="product-img-span">
                     <i class="fa-solid fa-magnifying-glass"></i>
                   </span>
                   &nbsp;
                 </div>
-                
               </div>
               <div
                 className="product-inner-in-item"
                 style={{ padding: "0 0 220px 0" }}
               >
-                <h1 class="product-title">Game Pack DVD</h1>
-                <span class="product-span">£89.00</span>&nbsp;
-                <span class="product-spann">£79.00</span>
+                <h1 class="product-title">{product.title}</h1>
+                <span class="product-spann">{product.price}</span>
                 <p>
                   Purus non enim praesent elementum facilisis. Neque vitae
                   tempus quam pellentesque. Facilisis mauris sit amet massa
