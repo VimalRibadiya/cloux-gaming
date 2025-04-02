@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cloux-gaming/static/css/main.fa10c0aa.css",
-    "main.js": "/cloux-gaming/static/js/main.e6a9f6db.js",
+    "main.js": "/cloux-gaming/static/js/main.8398fc75.js",
     "index.html": "/cloux-gaming/index.html",
     "main.fa10c0aa.css.map": "/cloux-gaming/static/css/main.fa10c0aa.css.map",
-    "main.e6a9f6db.js.map": "/cloux-gaming/static/js/main.e6a9f6db.js.map"
+    "main.8398fc75.js.map": "/cloux-gaming/static/js/main.8398fc75.js.map"
   },
   "entrypoints": [
     "static/css/main.fa10c0aa.css",
-    "static/js/main.e6a9f6db.js"
+    "static/js/main.8398fc75.js"
   ]
 }
